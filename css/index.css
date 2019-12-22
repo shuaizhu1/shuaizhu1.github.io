@@ -99,3 +99,22 @@
   height: 40%;
   width: 50%;
 }
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #E25822;
+}
+#highlights .inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+#highlights .point {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 0 2em;
+}
+
+#highlights h2 {
+  color: #E25822;
+}
