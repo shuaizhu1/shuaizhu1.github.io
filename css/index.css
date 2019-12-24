@@ -94,7 +94,7 @@
 .slide-overlay {
   position: absolute;
   /* background-color: rgba(0,0,0,.37); */
-  top:25%;
+  top: 12rem;
   left: 12%;
   height: 40%;
   width: 50%;
