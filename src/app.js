@@ -67,5 +67,9 @@ const exploreplan = (
 )
 
 ReactDOM.render(navbar, document.getElementById('navbar'));
-ReactDOM.render(exploreplan, document.getElementById('exploreplan'));
+
+if (document.getElementById('exploreplan')) {
+  ReactDOM.render(exploreplan, document.getElementById('exploreplan'));
+}
+
 ReactDOM.render(footer, document.getElementById('footer'));
