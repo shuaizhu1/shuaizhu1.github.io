@@ -6,7 +6,7 @@ var navbar = React.createElement(
     { className: "container" },
     React.createElement(
       "a",
-      { className: "navbar-brand js-scroll-trigger", href: true, style: { fontFamily: '"Rubik", sans-serif' } },
+      { className: "navbar-brand js-scroll-trigger", href: "index.html", style: { fontFamily: '"Rubik", sans-serif' } },
       "Ziggy's world"
     ),
     React.createElement(
@@ -26,7 +26,7 @@ var navbar = React.createElement(
           { className: "nav-item mx-0 mx-lg-1" },
           React.createElement(
             "a",
-            { className: "nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger", href: "#portfolio" },
+            { className: "nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger", href: "plans.html" },
             "View plans"
           )
         ),
